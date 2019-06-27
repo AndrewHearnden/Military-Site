@@ -508,6 +508,93 @@ blockquote {
 
 /* end */
 
+/* equipment page */
+
+.equipment-title {
+	text-align: center;
+	padding: 100px 100px 0 100px;
+}
+
+.equipment-flex-container {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+}
+
+.home-flex-container div {
+	width: 100%;
+	height: 250px;
+	text-transform: uppercase;
+	overflow: hidden;
+}
+
+
+.what-we-do, .news-events, .what-it-takes {
+	position: relative;
+}
+
+.what-we-do img, .news-events img, .what-it-takes img {
+	width: 100%;
+	object-fit: cover;
+	height: 450px;
+	filter: brightness(45%);
+}
+
+
+.what-we-do-text, .news-events-text, .what-it-takes-text {
+	position: absolute;
+	color: #fff;
+	top: 85%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+}
+
+.what-we-do h4, .news-events-text h4, .what-it-takes-text h4 {
+	font-size: 20px;
+}
+
+.what-we-do h5, .news-events-text h5, .what-it-takes h5 {
+	font-size: 40px;
+}
+
+@media (min-width: 1025px){
+	.equipment-title {
+		text-align: center;
+		padding: 100px 300px 0 300px;
+	}
+
+	.equipment-flex-container {
+		flex-direction: row;
+	}
+
+	.equipment-flex-container div {
+		width: 33.33%;
+		height: 450px;
+	}
+
+	.what-we-do-text, .news-events-text, .what-it-takes-text {
+		top: 85%;
+		left: 30%;
+		transform: translate(-50%, -50%);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end */
+
 /* careers page */
 
 .careers-title {
