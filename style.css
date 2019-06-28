@@ -512,7 +512,7 @@ blockquote {
 
 .equipment-title {
 	text-align: center;
-	padding: 100px 100px 0 100px;
+	padding: 100px 300px 0 300px;
 }
 
 .equipment-flex-container {
@@ -521,27 +521,26 @@ blockquote {
 	flex-direction: column;
 }
 
-.home-flex-container div {
+.equipment-flex-container div {
 	width: 100%;
-	height: 250px;
+	height: 350px;
 	text-transform: uppercase;
 	overflow: hidden;
 }
 
-
-.what-we-do, .news-events, .what-it-takes {
+.personal-equipment, .rifles-small, .escort-vehicles, .armoured-vehicles, .communications, .surveillance, .aircraft, .boat {
 	position: relative;
 }
 
-.what-we-do img, .news-events img, .what-it-takes img {
+.personal-equipment img, .rifles-small img, .escort-vehicles img, .armoured-vehicles img, .communications img, .surveillance img, .aircraft img, .boat img {
 	width: 100%;
 	object-fit: cover;
 	height: 450px;
-	filter: brightness(45%);
+	filter: brightness(55%);
 }
 
 
-.what-we-do-text, .news-events-text, .what-it-takes-text {
+.personal-equipment-text, .rifles-small-text, .escort-vehicles-text, .armoured-vehicles-text, .communications-text, .surveillance-text, .aircraft-text, .boat-text {
 	position: absolute;
 	color: #fff;
 	top: 85%;
@@ -549,11 +548,11 @@ blockquote {
 	transform: translate(-50%, -50%);
 }
 
-.what-we-do h4, .news-events-text h4, .what-it-takes-text h4 {
+.personal-equipment h4, .rifles-small-text h4, .escort-vehicles-text h4, .armoured-vehicles-text h4, .communications-text h4, .surveillance-text h4, .aircraft-text h4, .boat-text h4  {
 	font-size: 20px;
 }
 
-.what-we-do h5, .news-events-text h5, .what-it-takes h5 {
+.personal-equipment h5, .rifles-small-text h5, .escort-vehicles-text h5, .armoured-vehicles-text h5, .communications-text h5, .surveillance-text h5, .aircraft-text h5, .boat-text h5 {
 	font-size: 40px;
 }
 
@@ -572,24 +571,12 @@ blockquote {
 		height: 450px;
 	}
 
-	.what-we-do-text, .news-events-text, .what-it-takes-text {
+	.personal-equipment-text, .rifles-small-text, .escort-vehicles-text, .armoured-vehicles-text, .communications-text, .surveillance-text, .aircraft-text, .boat-text  {
 		top: 85%;
 		left: 30%;
 		transform: translate(-50%, -50%);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
