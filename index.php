@@ -18,26 +18,9 @@
 
 <body style="background-color: #e2e2dc;">
 
-	<header>
-
-		<div class="logo">Browning Reed</div>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="services.html">Services</a></li>
-				<li><a href="equipment.html">Equipment</a></li>
-				<li><a href="careers.html">Careers</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-
-		<div class="menu-toggle">
-			<i class="fa fa-bars" aria-hidden="true"></i>
-		</div>
-
-	</header>
-
+	<?php
+		include 'header.php';
+	?>
 
 
 	<div>
@@ -60,7 +43,7 @@
 		<div class="home-flex-container">
 
 			<div class="what-we-do">
-				<a href="services.html">
+				<a href="services.php">
 					<img src="./assets/images/army5.jpg">
 					<div class="what-we-do-text">
 						<h4>What we do</h4>
@@ -78,7 +61,7 @@
 			</div>
 
 			<div class="what-it-takes">
-				<a href="careers.html">
+				<a href="careers.php">
 					<img src="./assets/images/contractor4.jpg">
 					<div class="what-it-takes-text">
 						<h4>Why not join</h4>
@@ -89,7 +72,7 @@
 
 		</div>
 
-		<!--
+
 
 		<div class="job-info-container" style="margin-top: 50px;">
 
@@ -101,7 +84,7 @@
 
 				<div id="quote" class="main-job-info">
 					<h5>Life at browning reed</h5>
-					<blockquote>Keep up to date</blockquote>
+					<blockquote>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.""</blockquote>
 				</div>
 
 				<div>
@@ -109,17 +92,13 @@
 					<div class="second-job-container">
 
 						<div class="role-number">
-							<h4 style="padding-top: 75px;">Over</h4>
+							<h4>Over</h4>
 							<h2>100</h2>
 							<h4>different jobs</h4>
 						</div>
 
-						<div id="limits">
-							<h4>News and events</h4>
-						</div>
-
 						<div class="wage-info">
-							<h4 style="padding-top: 75px;">Start Earning</h4>
+							<h4>Start Earning</h4>
 							<h2>$50k</h2>
 							<h4>After training</h4>
 						</div>
@@ -128,18 +107,16 @@
 
 					<div class="third-job-container">
 
-						<div id="trades">
-							<h4>News and events</h4>
-						</div>
-
-						<div class="">
-							<h4 style="padding-top: 75px;">Over</h4>
+						<div class="wage-info">
+							<h4>Over</h4>
 							<h2>100</h2>
 							<h4>different jobs</h4>
 						</div>
 
-						<div id="belong">
-							<h4>News and events</h4>
+						<div class="wage-info">
+							<h4>Over</h4>
+							<h2>100</h2>
+							<h4>different jobs</h4>
 						</div>
 
 					</div>
@@ -203,51 +180,9 @@
 	</div>
 
 
-
-
-
-	<footer>
-
-		<div class="footer-container">
-
-			<div class="footer-text-container">
-
-				<div class="footer-text">
-					<h2><a href="#">ACCESSIBILITY</a></h2>
-					<h2><a href="#">PRIVACY AND COOKIES</a></h2>
-				</div>
-
-				<div class="footer-text-2">
-					<h2><a href="#">SECURITY POLICY</a></h2>
-					<h2><a href="#">FREEDOM OF INFORMATION</a></h2>
-				</div>
-
-				<div class="footer-contact">
-					<h2>Contact us</h2>
-					<h4>Find the contacts you need for </br>recruitment, media enquiries and more.</h4>
-					<div class="footer-contact-button">
-						<a href="contact.html">
-							<p>Contact Us</p>
-						</a>
-					</div>
-				</div>
-
-				<div class="footer-social">
-					<h2>social media</h2>
-				</div>
-
-
-			</div>
-
-		</div>
-
-		<div class="copyright">
-			<div class="footer-container">
-				<span>&copy;</span>2019 Browning Reed
-			</div>
-		</div>
-
-	</footer>
+	<?php
+		include 'footer.php';
+	?>
 
 
 

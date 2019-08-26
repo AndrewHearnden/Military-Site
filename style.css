@@ -145,7 +145,7 @@ header nav ul li a:hover, header nav ul li a.active {
 
 }
 
-/* banners */
+/* banners
 
 .banner-container {
 	position: relative;
@@ -167,85 +167,51 @@ header nav ul li a:hover, header nav ul li a.active {
 	background-attachment: fixed;
 	background-position: center;
 	width: 100%;
-}
+} */
 
-/* services banner */
 
-.services-banner-container {
+/* global banner */
+
+.banner-container {
 	position: relative;
 }
 
-.services-banner-container img {
+.banner-container img {
 	width: 100%;
 	filter: brightness(50%);
+	margin-top: 50px;
 }
 
-.services-banner-text {
-	position: absolute;
-	color: #fff;
-	top: 40%;
-	left: 40%;
-	transform: translate(-50%, -50%);
-}
-
-.services-banner-text h3 {
-	font-size: 25px;
-}
-
-.services-banner-text h4 {
-	font-size: 75px;
-}
-
-/* careers banner */
-
-.careers-banner-container {
-	position: relative;
-}
-
-.careers-banner-container img {
-	width: 100%;
-	filter: brightness(50%);
-}
-
-.careers-banner-text {
+.banner-text {
 	position: absolute;
 	color: #fff;
 	top: 50%;
 	left: 40%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -35%);
 }
 
-.careers-banner-text h3 {
-	font-size: 25px;
+.banner-text h3 {
+	font-size: 15px;
 }
 
-.careers-banner-text h4 {
-	font-size: 75px;
+.banner-text h4 {
+	font-size: 30px;
 }
 
-.recruitment-img-container {
-	position: relative;
-	padding: 50px 100px 50px 100px;
+@media (min-width: 1200px) {
+	.banner-text {
+		top: 40%;
+		transform: translate(-50%, -50%);
+	}
+
+	.banner-text h3 {
+		font-size: 25px;
+	}
+
+	.banner-text h4 {
+		font-size: 75px;
+	}
 }
-
-.recruitment-img-container img {
-	width: 100%;
-}
-
-.recruitment-img-text {
-	background: black;
-	position: absolute;
-	color: #fff;
-	top: 53%;
-	left: 30%;
-	transform: translate(-50%, -50%);
-}
-
-.recruitment-img-text h4 {
-	padding: 10px;
-}
-
-
 
 /* index */
 
@@ -313,26 +279,27 @@ header nav ul li a:hover, header nav ul li a.active {
 /* thinking of joining - index.html */
 
 .job-info-container {
-	padding: 0 200px;
+	padding: 0 10px;
 }
 
 .home-jobs-container {
 	display: flex;
 	width: 100%;
-	height: 600px;
 	background-color: #fff;
+	flex-direction: column;
 }
 
 .main-job-info {
-	width: 50%;
+	width: 100%;
 	flex-direction: row;
 	text-align: center;
-	padding-top: 200px;
+	padding-top: 50px;
 	color: #fff;
 }
 
 blockquote {
-	font-size: 54px;
+	font-size: 25px;
+	padding: 25px;
 }
 
 .row-flex {
@@ -347,18 +314,20 @@ blockquote {
 
 .second-job-container div {
 	flex-direction: row;
-	width: 200px;
+	width: 50%;
 }
 
 .role-number, .wage-info {
 	text-align: center;
 	text-transform: uppercase;
 	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .role-number h2, .wage-info h2 {
 		color: #00667d;
-		font-size: 60px;
+		font-size: 50px;
 		font-weight: bold;
 }
 
@@ -375,7 +344,7 @@ blockquote {
 
 .third-job-container div {
 	flex-direction: row;
-	width: 33%;
+	width: 50%;
 }
 
 #quote {
@@ -406,19 +375,6 @@ blockquote {
 	background-size: cover;
 }
 
-@media (max-width: 1700px) {
-
-	.job-info-container {
-		padding: 0 100px;
-	}
-}
-
-@media (max-width: 1012px) {
-	.job-info-container {
-		padding: 0 50px;
-	}
-}
-
 
 /* end */
 
@@ -441,6 +397,7 @@ blockquote {
 	border-radius: 200px;
 	width: 300px;
 	height: 40px;
+	border-color: #626366;
 }
 
 .news-button p {
@@ -614,6 +571,56 @@ blockquote {
 		filter: brightness(55%);
 	}
 }
+
+/* personal-equipment.html */
+
+.personal-equipment-nav-container {
+	display: flex;
+	width: 100%;
+	padding-top: 25px;
+	flex-direction: column;
+}
+
+.personal-equipment-nav-container div {
+	width: 100%;
+	text-align: center;
+	background: #fff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #e3e5e8;
+}
+
+.personal-equipment-nav-container h2 {
+	padding: 15px;
+	font-size: 20px;
+}
+
+.personal-clothing-title {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.personal-clothing-container {
+	width: 100%;
+
+}
+
+.personal-clothing-container img {
+	width: 100%;
+	object-fit: cover;
+}
+
+@media (min-width: 800px) {
+	.personal-equipment-nav-container {
+		flex-direction: row;
+	}
+}
+
+
+
+
+
+/* end */
 
 
 
@@ -971,5 +978,13 @@ footer {
 	.footer-container {
 		padding: 0 50px;
 	}
+}
 
+.social-icons {
+	padding-right: 5px;
+}
+
+.social-icons img {
+	width: 50px;
+	height: 50px;
 }
